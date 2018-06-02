@@ -1,0 +1,89 @@
+
+header{
+	background-image: url("images/bg.jpeg");
+    border: 20;
+	margin: 50px;
+	padding: 0;
+    font-family: "Arial", "Arial", Helvetica, Arial, sans-serif;
+    }
+
+header nav{
+	float: right;
+	list-style-type: none;
+	margin: 20px;
+   }
+
+ header h1{ font-size: 40px;
+	text-align:center;
+	clear: both;
+	margin: 30px;
+	padding: 30px;
+   }
+
+.boton_comienza {
+    background: #2E64FE;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+
+.boton_mas {
+    background: #2fe649;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+
+p{  font-size: 10px;
+	text-align:center;
+	clear: both;
+	margin: 10px;
+ 	padding: 20px;
+ }      
+
+main h2 {	
+	font-size: 15px;
+	text-align:center;
+	clear: both;
+	}
+
+main p { font-size: 13px;
+	text-align:center;
+	clear: both;
+  }  
+
+.boton  {
+    background: #2E64FE;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.footer{
+	background: black;
+	color: white;
+	display: inline-block;
+    font-size: 15px;
+    width: 90%;
+    height: 90%;
+    margin: 45px;
+    padding: 45px 45px;
+    text-align: center;
+    text-decoration: none;
+   
+    }
