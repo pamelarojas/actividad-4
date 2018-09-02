@@ -1,7 +1,7 @@
 
 header{
 	background-image: url("images/bg.jpeg");
-    border: 20;
+    border: 20px;
 	margin: 50px;
 	padding: 0;
     font-family: "Arial", "Arial", Helvetica, Arial, sans-serif;
@@ -88,10 +88,11 @@ p { font-size: 13px;
 }
 
 .container-fluid{
-    width: 100%;
+    width: 97%;
     height: 250px;
     padding-top: 20px;
     background: #FFFFCC;
+    margin: 25px;
 
 
 }
@@ -119,6 +120,9 @@ p { font-size: 13px;
     padding-right: 350px;
 }
 
+
+
+
 .footer{
 	background: black;
 	color: white;
@@ -126,9 +130,10 @@ p { font-size: 13px;
     font-size: 15px;
     width: 90%;
     height: 90%;
-    margin: 45px;
+    margin: 25px;
     padding: 45px 45px;
     text-align: center;
     text-decoration: none;
+    padding-right: 50px;
    
     }
