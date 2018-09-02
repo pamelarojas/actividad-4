@@ -9,9 +9,9 @@
 <body>	
 
 <header>
-<img src="images/latam_logo.png"; width="150px"; margin="20px"; style="float:left">
+<img class="logo" src="images/latam_logo.png">
 
-<nav>
+<nav class="nav">
 
 <a href="#">Equipo</a>
 <a href="#">Blog</a> 
@@ -20,7 +20,7 @@
 </nav>
 
 
-<h1 style="color: white">
+<h1>
 COMIENZA UNA NUEVA VIDA Y <br> ÚNETE AL MUNDO <br> TECNOLÓGICO</h1>
 
 <center>
@@ -28,7 +28,7 @@ COMIENZA UNA NUEVA VIDA Y <br> ÚNETE AL MUNDO <br> TECNOLÓGICO</h1>
 <a href="#" class="boton_mas">Más info!</a>
 </center>
 
-<p style="color: white">Hay una escasez gigante de desarrolladores en el mundo y más aún en el latinoamerica, se necesitan más<br>desarrolladores y Tú puedes ser uno!
+<p class="header">Hay una escasez gigante de desarrolladores en el mundo y más aún en el latinoamerica, se necesitan más<br>desarrolladores y Tú puedes ser uno!
 </p>
 
 </header>
@@ -37,10 +37,12 @@ COMIENZA UNA NUEVA VIDA Y <br> ÚNETE AL MUNDO <br> TECNOLÓGICO</h1>
 
 <h2> EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA </h2>
 
-<p> Lorem ipsu sit amet, consectetur adipisicing elit, totam in accusantium corrupti possimus facere hio optio eligendi asperiores, <br> porro laboriosam ratione quos repeliat accusamus ea eum ex auti molestias eiust </p>
+<p> Lorem ipsu sit amet, consectetur adipisicing elit, totam in accusantium corrupti possimus facere hio optio <br>eligendi asperiores,  porro laboriosam ratione quos repeliat accusamus ea eum ex auti molestias eiust </p>
 
-<img src="images/gente.png"; width="500px"; height="500px";>
+<img class="foto" src="images/gente.png">
 
+
+<div class="container-fluid">
 <h2> SOLICITA INFORMACIÓN E INSCRÍBETE </h2>
 
 <p> Lorem ipsum sit amet, consectetur adipisicing elit. Nemo id incidunt ullam illum accusamus pariotur placeat perferendis eum delectus eius odio ast iure deserunti.<br> Paratur maxime veratis aspematur ad consequuntur </p>
@@ -50,35 +52,41 @@ COMIENZA UNA NUEVA VIDA Y <br> ÚNETE AL MUNDO <br> TECNOLÓGICO</h1>
 <a href="#" class="boton"> Inscribete!</a>	
 </center>
 
-<p> Vive la experiencia Desafio Latam!</p>	
+<p> Vive la experiencia Desafio Latam!</p>
+</div>	
 
-<section style="float: center;">
+<section class="contacto">
+<table>
+  <tr>
+    <th>Contacto</th>
+    <th>Subscribete</th>
+  </tr>
 
-<p style="">Contacto<br>
- Desafio Latam
-<br>Ezequias Alliende 2361
-<br>P: +56 9 5117 7975<br>
-<a href="#" class="email">inscripciones@desafiolatam.com
-</a></p>
-</section>
+  <tr>
+    <td>Desafio Latam
+    <br>
+    Ezequias Allende 2361 
+    <br>
+    P: +56 9 5117 7975
+    <br>
+    <a href="#" class="email">inscripciones@desafiolatam.com
+    </a><td>
+  </tr>
 
-<section style="text-align: center;">
-<p>Subscribete<br>
-Lorem ipsum dolor sit amet, consectetur adipisicind elit.
- </p>
-
-<input type="text" value="Ingresa tu email..." >
-<input type="submit" value="Enviar" class="enviar">
-</section>	
+  <tr>
+  	<td>Lorem ipsum dolor sit amet, consectetur adipisicind elit.</td>
+  	<td><input type="text" value="Ingresa tu email..." ></td>
+    <td><input type="submit" value="Enviar" class="enviar"></td>
+  </tr>
+  
+</table>
 
 </main>
 
 <footer>
-
-<div class="footer">
-<div class="pie-de-pag">DESAFIO LATAM 2016 - CURSO FULLSTACK G5</div>
-</div>
-
+	<div class="footer">
+		<div class="pie-de-pag">DESAFIO LATAM 2016 - CURSO FULLSTACK G5</div>
+	</div>
 </footer>
 
 </body>
